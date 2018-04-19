@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header starts*/
+header {
+    min-height: 80px;
+    background-color: #121B2A;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30%;
+    height: 80px;
+
+    float: left;
+}
+
+.logo img {
+   padding: 13px 0px;
+    height: 68px;
+    width: 100%;
+}
+
+.navbar {
+    width: 60%;
+    height: 80px;
+
+    float: right;
+}
+
+.navbar ul {}
+
+.navbar ul li {
+    list-style: none;
+    margin-top: 46px;
+    float: right;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: left;
+    padding: 14px;
+    font-size: 16px;
+    transition: .5s;
+}
+
+navbar ul li:last-child a {
+    padding-right: 0px;
+}
+.navbar ul li a:hover { 
+    color: #0078BC;
+}
+/*header ends*/
+/*banner starts*/
+.banner {
+    background-image:url(../images/my.jpeg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-position:top;
+}
+.banner_content{
+    width: 46%;
+    margin-top: 185px;
+    color: white;
+}
+
+.banner_content h2 {
+    font-size: 33px;
+    text-transform: capitalize;
+}
+.banner_content h1{
+        font-size: 42px;
+    color: #0175B7;
+    text-transform: capitalize;
+}
+.banner_content p{
+    font-size: 18px;
+}
+.banner_content button{
+            padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.banner_content button img{
+}
+
+
+/*banner ends*/
+/*section starts*/
+section {}
+.service {
+    overflow: hidden;
+    background: #121B2C;
+}
+
+.wrapper_2 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.services {
+    width: 100%;
+    min-height: 200px;
+    
+}
+
+.single_service {
+    min-height: 200px;
+    width: 30%;
+    background: #121B2C;
+    margin-top: 32px;
+    border-right: 1px solid #121B3C;
+    float: left;
+        padding: 5px 18px;
+}
+.single_header{
+   width: 100%;
+    min-height: 80px;
+    overflow: hidden;
+  
+   
+}
+.single_logo{
+    width: 30%;
+    float: left;
+     
+}
+.single_logo img{
+     width: 100%;
+}
+.single_text{
+    width: 60%;
+    float: left;
+      
+}
+.pera1{    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;}
+.pera2{    color: #0175B7;
+    font-size: 25px;
+    text-transform: capitalize;}
+.single_content{
+    color: white;
+    text-align: left;
+    line-height: 20px;
+}
+/*section ends*/
+/*article starts*/
+.article {
+    background-color: #040811;
+    min-height: 350px;
+}
+
+.wrapper3 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.articles {
+    width: 100%;
+    min-height: 300px;
+}
+
+.single_article {
+    padding: 5px 42px;
+    min-height: 300px;
+    width: 25%;
+    background:#040811;;
+    margin-top: 32px;
+   
+    float: left;
+        padding: 5px 18px;
+}
+.article_header{
+    overflow: hidden;
+        min-height: 35px;
+    margin-top: 40px;
+}
+.pera_one {
+    float: left;
+        color: #fff;
+    font-size: 20px;
+}
+
+.pera_two {
+    float: left;
+    color: #1975B7;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.rest {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+.left{float: left;}
+.single_article img{
+    width: 100%;
+    padding: 55px 18px;
+}
+.right{}
+.para1{
+  margin-left: 125px;
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+}
+.para2{
+        margin-left: 125px;
+    margin-top: 4px;
+    font-size: 22px;
+    color: #0175B7;
+}
+.app{
+    margin-left: 125px;
+    margin-top: 4px;
+    font-size: 22px;
+    color: #0175B7;
+    padding: 6px 3px;
+
+}
+.app button{
+      padding: 18px 22px;
+    border: none;
+    border-radius: 5px;
+
+}
+/*article ends*/
+/*footer starts*/
+.footer {
+    background-color: #121B2C;
+    min-height: 60px;
+}
+.footer_sec {
+     width: 100%;
+    height: 100px;
+}
+
+.nav_part {
+    width: 60%;
+    background-color: #121B2C;
+     height: 100px;
+    float: left;
+}
+.nav_part ul{}
+.nav_part ul li{
+        list-style: none;
+    margin-top: 35px;
+    float: left;
+   padding: 3px 0px;
+}
+.nav_part ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: left;
+    padding: 0px 14px;
+    font-size: 14px;
+    transition: .5s;
+        border-right: 1px solid white;
+}
+
+.nav_part p{
+    color: white;
+    font-size: 14px;
+    padding: 80px 85px;
+   
+}
+.nav_part ul li a:hover { 
+    color: #0078BC;
+}
+
+.logo_part {
+    width: 30%;
+    background-color:#121B2C
+    height: 100px;
+    float: left;
+}
+.logo_part img{
+    width: 100%;
+        padding: 31px 0px;
+}
+/*footer ends*/
